@@ -1,6 +1,6 @@
 # mumcl
 There are two programs here:
-- `muprog1.py` is a python3 program that accepts PlexDB affymetrix RMA processed column files. It is used to selectively combine individual or range of columns together to create another tab-separated ouput file with those combined columns.
+- `muprog1.py` is a python3 program that accepts ![PlexDB](http://www.plexdb.org/plex.php?database=Barley) affymetrix RMA processed column files. It is used to selectively combine individual or range of columns together to create another tab-separated ouput file with those combined columns.
 
 ```
 usage: muprog1.py [-h] -i EXPRFILE [EXPRFILE ...] -o OUTPUTFILE [-s] [-f]
