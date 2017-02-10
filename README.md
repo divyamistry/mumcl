@@ -27,7 +27,7 @@ Example:
   # muprog1.py -i file1.expr:[1,3] file2.expr:[9,20:22] ...
 ```
 
-- `performMagic.sh` is a shell script that performs clustering using ![mcl](http://micans.org/mcl/) and provides reports on the stdout of current shell.
+- `performMagic.sh` is a shell script that performs clustering using [mcl](http://micans.org/mcl/) and provides reports on the stdout of current shell.
 ```
 usage: performMagic.sh <expression file> <output file name> <tab file name> <correlation cutoff in (0,1] range>
 ```
